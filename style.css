@@ -1,0 +1,124 @@
+.navbar{
+    background-color: rgb(83, 128, 128) !important;
+}
+.nav-link{
+    color: cornsilk !important;
+    font-weight: bold;
+}
+.navbar-brand{
+    width: 100px;
+    height: 130px;
+}
+.images{
+    width: 190px;
+    height: 120px; 
+}
+
+.carousel-item{
+    height: 600px !important;
+
+}
+.heading >h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: double;
+    text-shadow: black  !important;
+    color: darkblue;
+    background-color: rgb(73, 128, 128);
+ }
+ 
+.fa-truck , .fa-money , .fa-phone{
+    font-size: 40px !important;
+    color:blue;
+    margin-right: 10px;
+}
+ .card1 , .card2 , .card3{
+    display: flex;
+
+    /* border: 2px solid black; */
+    background-color: blanchedalmond;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 300px;
+    height: 100%;
+   
+}
+.maincard{
+    margin-top: 10px;
+display: flex;
+flex-direction: row;
+
+justify-content: space-around;
+ flex-wrap: wrap;/* for small screen */
+}
+
+
+
+@media screen and (max-width : 600px){
+    .card1 , .card2 , .card3{
+        width: 100%;
+    }
+}
+ .newarrivals{
+    margin-top: 50px;
+}
+.card{
+    width: 200px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color:blue;
+}
+h3, h1{
+    color: blue;
+}
+h1{
+    margin-left: 10px;
+}
+.para
+{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:blue;
+    font-size: 44px;
+    margin: 10px;
+}
+.heading > h2{
+    text-shadow: 2px 2px 4px black;
+}
+.footer{
+    background-color: lightseagreen;
+    margin-left: 50px;
+}
+.nav-link:hover{
+    background-color: mediumblue;
+}
+.page{
+    text-align: center;
+    margin-top: 40px;
+    background-color: lightseagreen;
+    text-shadow: maroon !important; 
+    text-decoration: maroon;
+    color: mediumblue;
+   
+    
+}
+.last{
+    margin-top: 50px;
+    margin-right: 50px;
+}
